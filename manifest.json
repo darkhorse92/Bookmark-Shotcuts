@@ -1,0 +1,13 @@
+{
+"manifest_version":2,
+"name":"Bookmark Shotcuts",
+"description":"Qucik lauch websites",
+"version": "1.0.0",
+"icons" :{"128":"A-128png.png"},
+"browser_action":{
+    "default_icon":"A-128png.png",
+    "default_popup": "popup.html"
+},
+"permissions":["activeTab"]
+
+}
